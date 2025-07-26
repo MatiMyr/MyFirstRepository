@@ -1,0 +1,42 @@
+#Comandos de git
+
+## clone
+
+Tomar un repositorio que está hosteado en GitHub (u otro servidor remoto) y copiarlo en una carpeta local.
+
+```
+> git clone <url-del-repositorio>
+```
+
+## add
+
+Agregar archivos modificados o nuevos al "área de preparación" (staging area), para que estén listos para ser confirmados (commit).
+
+```
+> git add archivo.txt     # Agrega un archivo específico  
+> git add .               # Agrega todos los cambios del directorio actual
+```
+
+##commit
+
+Guardar una "foto" de los archivos que están en el área de preparación con un mensaje que describe los cambios.
+
+```
+> git commit -m "Título" -m "Descripción"
+```
+
+## push
+
+Subir tus cambios confirmados (commits) desde tu repositorio local al repositorio remoto (GitHub)
+
+```
+> git push origin main
+```
+
+## pull
+
+Traer los últimos cambios desde el repositorio remoto a tu repositorio local y fusionarlos con tus archivos actuales.
+
+```
+> git pull origin main
+```
